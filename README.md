@@ -30,4 +30,6 @@
 需要使用脚本`make_dataset.py`对`csv`数据转换为`txt`格式
 
 ### pretrain
-使用**huggingface**提供的预训练模型及词表
+- 使用**huggingface**提供的预训练模型及词表，依次下载放置`custom/pretrain`中
+- bert_base_Chinese模型：https://pan.baidu.com/s/1qSAD5gwClq7xlgzl_4W3Pw?_at_=1654265123823
+- 词表：https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt
