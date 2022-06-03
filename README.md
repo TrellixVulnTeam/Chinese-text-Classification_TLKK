@@ -1,6 +1,7 @@
 # Chinese-text-Classification
 本仓库包含如下两部分：
 - 基于pytorch的微调训练（训练10个epoch，在测试集测试结果为**89%**）
+<div align=center><img src ="images/terminal.png" style="zoom:100%;"/></div>
 - 基于自定义模型的微调训练
 
 ## 基于pytorch
