@@ -1,6 +1,6 @@
 # Chinese-text-Classification
 本仓库包含如下两部分：
-- 基于pytorch的微调训练
+- 基于pytorch的微调训练（训练10个epoch，在测试集测试结果为**89%**）
 - 基于自定义模型的微调训练
 
 ## 基于pytorch
@@ -8,8 +8,8 @@
 ### data
 - train
 训练数据，验证数据（通过拆分）
-- test
-待预测数据（如果需要label的可以联系我）
+- testA
+待预测数据，仓库提供label（testA_label）以供测试
 
 ### model
 - 使用官方pytorch的**bert-base-chinese**预训练模型
